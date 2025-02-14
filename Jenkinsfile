@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git credentialsId: 'github-ssh-key', url: 'git@github.com:yourusername/your-repo.git', branch: 'main'
+                git credentialsId: 'github-ssh-key', url: 'https://github.com/Harsh5442/flask-assignment2.git', branch: 'main'
             }
         }
 
